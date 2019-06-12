@@ -6,8 +6,7 @@ g = GameBoard()
 def user():
 
     guess = 0
-    x_input = None
-    y_input = None
+    x_input = y_input = None
     acceptable_x = ["0", "1", "2", "3", "4"]
     acceptable_y = ["0", "1", "2", "3", "4"]    
 
