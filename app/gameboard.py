@@ -12,7 +12,7 @@ class GameBoard:
     x_ran = random.randint(0,4)
     y_ran = random.randint(0,4)
 
-    def __init__(self, width=5, height=5):
+    def __init__(self, width=4, height=4):
         grid = []
         print("")
         for row_index in range(height):
